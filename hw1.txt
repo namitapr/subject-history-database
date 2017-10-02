@@ -1,0 +1,52 @@
+===========================================
+CSCI 104 HW 1				Namita Prakash
+===========================================
+
+PROBLEM 1
+Part a: 1, 4;
+1. Looking up information relevant to the course online. 
+4. Asking the course staff for help.
+
+Part b: 2, 4;
+2. Assign the issue to your grader on GitHub. 
+4. Raise an issue within 1 week of receiving the grade.
+
+Part c: 2, 3, 4, 5;
+2. emacs
+3. Eclipse
+4. Sublime
+5. Microsoft Visual Studio
+
+Part d: 2;
+2. Each student has 3 late days of which only one can be used per HW.
+
+Part e: 2;
+2. Complete the online submission form as you would for an on-time submission.
+
+
+PROBLEM 2
+Part a: 3;
+3. Terminal (Mac or Linux);
+
+Part b: 1, 2;
+1. Cloning into a folder that itself is a git repo.
+2. Cloning into a sync'ed folder like Dropbox or Google Drive.
+
+Part c: 
+1. git add hw1q2b.cpp
+2. git log -3
+
+Part d: 
+Since the command "git commit" does not include a message, and a message is required for committing a repository, git will prompt me for a message using Sublime (the text editor I've configured as the default one).
+
+Part e: 
+git clone git@github.com:usc-csci104-fall2017/homework-resources.git
+
+
+PROBLEM 4
+1. funcA(180) = 15;
+15 is the output because as funcB isolates and sums up each of the prime factors of 180.
+
+2. The call will always terminate because i is increasing as n is either reduced or stays the same, so eventually i == n will be true and the function will return a finite number;
+
+3. funcA(n) outputs the sum of all the prime factors of n. This is because as funcB recurses, it isolates n's prime factors through the else if statement and adds that value to a growing sum that will eventually contain all of n's prime factors.
